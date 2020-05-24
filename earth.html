@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Follow homw many people there are in space right now and watch live strem from ISS.">
+    <meta name="keywords" content="space, univerce, rockets, rocket-launching, Earth, Mars, Moon, ISS, astronauts, exploring">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Geek | Earth</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="background-gradient">
+        <header>
+            <div id="logo" class="col1">
+                <a href="index.html">
+                    <img src="images/robot_logo.png" alt="#"></a>
+            </div>
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <ul class="nav col2">
+                    <li class="nav-item"><a href="index.html" class="nav-link" class="current">Home</a></li>
+                    <li class="nav-item"><a href="earth.html" class="nav-link">Earth</a></li>
+                    <li class="nav-item"><a href="mars.html" class="nav-link">Mars</a></li>
+                    <li class="nav-item"><a href="launches.html" class="nav-link">Launches</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="astronauts">
+                <div class="peopleInSpace">
+                    <h3 id="counter">There are # people in the space right now: </h3>
+                    <div id="names"></div>
+                    <img id="shootingStar" src="images/shooting_star.png" alt="A shooting star vector">
+                </div>
+                <div class="peopleInSpace-img">
+                    <img src="images/astronauts_now.jpg" alt="Astronauts that are currently in space">
+                    <!--Image free for use. Taken from: https://www.flickr.com/photos/nasa2explore/49614819948/-->
+                    <p>From left are, NASA astronaut and Commander Chris Cassidy and Roscosmos cosmonauts and Flight Engineers Anatoly Ivanishin and Ivan Vagner.</p>
+                    <p>To read more about their mission<a href="https://www.nasa.gov/press-release/nasa-astronaut-chris-cassidy-crewmates-arrive-safely-at-space-station">click
+                            here.</a></p>
+                </div>
+            </div>
+            <div class="issLiveHeader">
+                <h2>See the live footage of the Earth from the International Space Station:<span><img src="images/iss.png" alt="International space station vector"></span></h2>
+            </div>
+            <section class="iss_live">
+                <div class="frame1">
+                    <iframe width="1195" height="672" src="https://www.youtube.com/embed/EEIk7gwjgIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="frame2">
+                    <iframe width="1195" height="672" src="https://www.youtube.com/embed/XBPjVzSoepo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <div class="wrapper">
+                    <div class="footer-logo">
+                        <img src="images/robot_logo.png" alt="Space Geeks logo" />
+                    </div>
+                    <div class="footer-links">
+                        <h3>Useful links:</h3>
+                        <ul class="links">
+                            <li><a href="https://www.nasa.gov/">NASA</a></li>
+                            <li><a href="https://www.spacex.com/">SpaceX</a></li>
+                            <li><a href="http://www.space.com/">Space</a></li>
+                            <li><a href="https://www.newscientist.com/">NewScientist</a></li>
+                            <li><a href="https://phys.org/">Phys</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/earth.js"></script>
+    <script src="js/mobile_nav.js"></script>
+</body>
+
+</html>

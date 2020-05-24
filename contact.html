@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Space Geek if you have questions, suggestions or general feedback.">
+    <meta name="keywords" content="feedback, students, teachers, contact, space, univerce, rockets, rocket-launching, Earth, Mars, Moon, ISS, astronauts, exploring">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Geek | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="background-gradient">
+        <header>
+            <div id="logo" class="col1">
+                <a href="index.html">
+                    <img src="images/robot_logo.png" alt="#"></a>
+            </div>
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <ul class="nav col2">
+                    <li class="nav-item"><a href="index.html" class="nav-link" class="current">Home</a></li>
+                    <li class="nav-item"><a href="earth.html" class="nav-link">Earth</a></li>
+                    <li class="nav-item"><a href="mars.html" class="nav-link">Mars</a></li>
+                    <li class="nav-item"><a href="launches.html" class="nav-link">Launches</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="mainArea">
+                <h1>If you have any questions, comments or suggestions, don't be shy!</h1>
+                <div id="antenaImg">
+                    <img src="images/antena.png" alt="Antena lustration vector">
+                </div>
+                <div id="submitMessage">
+                    Your message is submitted.
+                </div>
+                <form id="contactForm">
+                    <h2>We would love to hear from you:</h2>
+                    <div>
+                        <input type="text" id="name" placeholder="First name *" />
+                        <div class="error" id="nameError">Please enter your first name</div>
+                    </div>
+
+                    <div>
+                        <input type="text" id="lastName" placeholder="Last name (at least 3 characters)*" />
+                        <div class="error" id="lastNameError">Your last name must have at least 3 characters</div>
+                    </div>
+
+                    <div>
+                        <input type="text" id="email" placeholder="Email *" />
+                        <div class="error" id="emailError">Please enter a valid email address</div>
+                    </div>
+
+                    <div>
+                        <textarea type="text" id="message" placeholder="Message (at least 6 characters)"></textarea>
+                        <div class="error" id="messageError">Your message must have at least 6 characters</div>
+                    </div>
+
+                    <button class="button" type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <div class="wrapper">
+                    <div class="footer-logo">
+                        <img src="images/robot_logo.png" alt="Space Geeks logo" />
+                    </div>
+                    <div class="footer-links">
+                        <h3>Useful links:</h3>
+                        <ul class="links">
+                            <li><a href="https://www.nasa.gov/">NASA</a></li>
+                            <li><a href="https://www.spacex.com/">SpaceX</a></li>
+                            <li><a href="http://www.space.com/">Space</a></li>
+                            <li><a href="https://www.newscientist.com/">NewScientist</a></li>
+                            <li><a href="https://phys.org/">Phys</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/contact.js"></script>
+    <script src="js/mobile_nav.js"></script>
+</body>
+
+</html>
